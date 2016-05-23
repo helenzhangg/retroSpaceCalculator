@@ -127,5 +127,16 @@ class ViewController: UIViewController {
         
         btnSound.play()
     }
+    
+    @IBAction func pressClear(btn:UIButton!) {
+        playSound()
+        
+        runningNumber = ""
+        leftValString = ""
+        rightValString = ""
+        currentOperation = Operation.Empty
+        result = ""
+        outputLbl.text = "0"
+    }
 }
 

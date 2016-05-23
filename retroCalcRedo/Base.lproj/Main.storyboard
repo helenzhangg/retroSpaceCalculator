@@ -259,6 +259,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONB-Yv-6zN">
+                                <rect key="frame" x="228" y="517" width="147" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="0mX-aQ-AU7"/>
+                                    <constraint firstAttribute="width" constant="147" id="TPG-Za-6JF"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="pressClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POy-9K-BdJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -266,6 +277,7 @@
                             <constraint firstItem="Yr5-Tz-1Li" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I4n-Gu-zVe"/>
                             <constraint firstItem="mQl-eG-F3E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JGW-JC-Jpz"/>
                             <constraint firstItem="wf1-Zg-h1C" firstAttribute="top" secondItem="Yr5-Tz-1Li" secondAttribute="top" constant="16" id="LbY-CZ-S5K"/>
+                            <constraint firstItem="ONB-Yv-6zN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PVu-Ds-luO"/>
                             <constraint firstItem="tYT-vc-5Bz" firstAttribute="centerY" secondItem="Yr5-Tz-1Li" secondAttribute="centerY" constant="35" id="SdT-A8-YW6"/>
                             <constraint firstItem="Wpb-YU-uOW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y7q-Gm-Fst"/>
                             <constraint firstItem="Yr5-Tz-1Li" firstAttribute="trailing" secondItem="wf1-Zg-h1C" secondAttribute="trailing" constant="11" id="Zwb-Jc-fnh"/>
@@ -273,6 +285,7 @@
                             <constraint firstItem="Yr5-Tz-1Li" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bej-w0-VLf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mQl-eG-F3E" secondAttribute="bottom" id="f5T-zl-UKU"/>
                             <constraint firstItem="tYT-vc-5Bz" firstAttribute="centerX" secondItem="Yr5-Tz-1Li" secondAttribute="centerX" id="jhu-i3-KK0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ONB-Yv-6zN" secondAttribute="bottom" constant="17" id="rrJ-Is-ekI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wpb-YU-uOW" secondAttribute="bottom" id="uqI-70-J39"/>
                             <constraint firstAttribute="trailing" secondItem="Wpb-YU-uOW" secondAttribute="trailing" id="zEe-RJ-VZB"/>
                         </constraints>
@@ -299,6 +312,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
